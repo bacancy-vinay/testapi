@@ -7,6 +7,6 @@ Rails.application.routes.draw do
       resources :customers
     end
   end
-  get '/api' => redirect('/swagger/dist/index.html?url=/apidocs/api-docs.json')
+  get '/api' => redirect('/swagger/dist/index.html?url=/api/v1/api-docs.json')
 
 end
